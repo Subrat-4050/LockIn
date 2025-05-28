@@ -21,5 +21,19 @@ import com.example.lockin.ui.theme.GreenJc
 @Composable
 fun HomeScreen(modifier: Modifier = Modifier) {
 
+    Box(
+        modifier = Modifier
+            .fillMaxSize()
+            .background(color = GreenJc),
+        contentAlignment = Alignment.Center
+    ) {
+        Text(
+            text = "Welcome to Home",
+            color = Color.White,
+            fontSize = 30.sp,
+            fontWeight = FontWeight.Bold,
+            textAlign = TextAlign.Center
+        )
+    }
 }
 
